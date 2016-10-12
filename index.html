@@ -1,0 +1,202 @@
+<html>
+	<head>
+		<title>Cursus gegeven in de senaat over : html</title>
+
+		<link rel="stylesheet" href="css/stylesheet.css">
+
+	</head>
+	
+	<body>
+		<div class="wrapper">
+			<section class="bigTitle">
+				<h1>Html &amp; Css cursus </h1>
+			</section>
+
+			<nav class="inhoud">
+				<ul>
+					<li><a href="#headers">Headers</a></li>
+					<li><a href="#paragraaf">Paragraaf</a></li>
+					<li><a href="#linken">Linken</a></li>
+					<li><a href="#lijsten">Lijsten</a></li>
+					<li><a href="#tabel">Tabel</a></li>
+					<li><a href="#formulier">formulier</a></li>
+					<li><a href="#iframe">iframe</a></li>
+					<li><a href="#afbeelding">afbeelding</a></li>
+				</ul>
+			</nav>
+
+			<div class="mainSection">
+
+				<section class="headers">
+					<a name="headers" />
+						<header>
+							<h2>headers</h2>
+						</header>
+
+						<h1>header 1</h1>
+						<h2>header 2</h2>
+						<h3>header 3</h3>
+						<h4>header 3</h4>
+						<h5>header 5</h5>
+						<h6>header 6</h6>
+
+				</section>	
+
+				<section class="paragraaf">
+					<a name="paragraaf" />
+						<header>
+							<h2>paragraaf</h2>
+						</header>
+
+						<p>Hello world! <br/> Mijn naam is <strong>Rob</strong>. Ik ben <span>40</span> jaar oud en ben woonachtig te <del>Mars</del> <ins>Antwerpen</ins>. Mijn lievelingsbezigheid is <mark>koken.</mark></p>
+
+						<header>
+							<h2>paragraaf formateren</h2>
+						</header>
+						<em> - Emphasized text</em><br/>
+						<mark> - Marked text</mark><br/>
+						<small> - Small text</small><br/>
+						<del> - Deleted text</del><br/>
+						<ins> - Inserted text</ins><br/>
+						<sub> - Subscript text</sub><br/>
+						<sup> - Superscript text</sup><br/>
+				</section>	
+			
+
+				<section class="linken">
+					<a name="linken" />
+						<header>
+							<h2>Linken</h2>
+						</header>
+						<nav>
+							<a href="http://www.demorgen.be" target="_blank" title="naar de morgen" >lees meer</a><br/>
+							<a href="mailto:me@mail.com">mail me</a><br>
+							<a href="tel:0494657876">Bel mij</a><br>
+							<a href="#headers">naar headers</a><br>
+						</nav>	
+				</section>
+
+
+				<section class="lijsten">
+					<a name="lijsten" />
+						<header>
+							<h2>Lijsten</h2>
+						</header>
+						
+						<h2>Unordened List</h2>
+
+						<ul>
+							<li>dit is item 1</li>
+							<li>dit is item 2</li>
+						</ul>
+						
+						<h2>Ordened List</h2>
+						<ol>
+							<li>dit is item 1</li>
+							<li>dit is item 2</li>
+						</ol>
+						
+						<ol type="a">
+							<li>dit is item 1</li>
+							<li>dit is item 2</li>
+						</ol>
+
+						<ol type="i">
+							<li>dit is item 1</li>
+							<li>dit is item 2</li>
+						</ol>
+
+						<ol start="5">
+							<li>dit is item 1</li>
+							<li>dit is item 2</li>
+						</ol>
+
+						<h2>List met sublist</h2>
+						<ul>
+							<li>dit is item 1
+								<ol>
+									<li>sub item</li>
+								</ol>
+							</li>
+							<li>dit is item 2</li>
+						</ul>
+				</section>
+
+				<section class="tabel">
+					<a name="tabel" />
+					<header>
+						<h2>Tabel</h2>
+					</header>
+
+					<table>
+						<thead>
+							<tr>
+								<td>naam</td>
+								<td>leeftijd</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Len</td>
+								<td>13</td>
+							</tr>
+							<tr>
+								<td>Ozan</td>
+								<td>7</td>
+							</tr>
+						</tbody>
+					</table>
+					</section>
+
+				<section class="formulier">
+					<a name="formulier" />
+						<header>
+							<h2>Formulier</h2>
+						</header>
+
+						<form action="action_page.php">
+						  <fieldset>
+						    <legend>Personal information:</legend>
+						    First name:<br/>
+						    <input type="text" name="firstname" value="Mickey"><br />
+						    Last name:<br>
+						    <input type="password" name="lastname" value="Mouse"><br /><br />
+
+						    Gender:<br/>
+						    <input type="radio" name="gender" value="m"> male<br />
+						    <input type="radio" name="gender" value="f"> female<br />
+						    
+						    <input type="radio" name="gender" value="o"> other <br />
+
+						    <input type="checkbox" name="genderz" value="o"> other <br />
+						    <input type="submit" value="Submit">
+						    <textarea name="hjh" id="" cols="30" rows="10"></textarea>
+						  </fieldset>
+						</form>
+					</section>
+
+				<section class="iframe">
+					<a name="iframe" />
+						<header>
+							<h2>Iframe</h2>
+						</header>
+					
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/d9TpRfDdyU0" frameborder="0" allowfullscreen>
+						</iframe>
+
+				</section>
+
+						
+				<section class="afbeelding">
+					<a name="afbeelding" />
+						<header>
+							<h2>Afbeelding</h2>
+						</header>
+						<img src="img/bloemen/bloemen.png" alt="foto van het halfrond van de senaat" >
+				</section>
+			</div>
+
+			<footer>Dit is de footer</footer>
+		</div>
+	</body>
+</html>
