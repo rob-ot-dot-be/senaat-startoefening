@@ -1,0 +1,40 @@
+body {
+	font-family: arial;
+}
+
+.wrapper {
+	width: 100%;
+	border: 1px solid black;
+}
+
+
+nav {
+	max-width: 160px;
+	margin: 0px;
+	float:left;
+	padding:20px;
+}
+
+
+.mainSection {
+	margin-left: 170px;
+	border-left:1px solid black;
+	padding:10px;
+
+}
+
+.bigTitle, footer {
+	background-color: black;
+	color: white;
+
+	text-align: center;
+
+	padding:30px;
+
+}
+
+
+nav.inhoud ul {
+	list-style-type: none;
+	padding-left:0px;
+}
